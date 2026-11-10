@@ -1,0 +1,162 @@
+[
+ {
+  "id": "q01",
+  "question": "When does the monsoon bring rain to India?",
+  "answer": "between June and September"
+ },
+ {
+  "id": "q02",
+  "question": "Which crops depend on monsoon rain?",
+  "answer": "sugarcane"
+ },
+ {
+  "id": "q03",
+  "question": "What can a weak monsoon cause?",
+  "answer": "drought"
+ },
+ {
+  "id": "q04",
+  "question": "What are rice fields called?",
+  "answer": "paddies"
+ },
+ {
+  "id": "q05",
+  "question": "Which states grow a lot of rice?",
+  "answer": "West Bengal"
+ },
+ {
+  "id": "q06",
+  "question": "How many players are in a cricket team?",
+  "answer": "eleven"
+ },
+ {
+  "id": "q07",
+  "question": "What is the IPL?",
+  "answer": "twenty-over"
+ },
+ {
+  "id": "q08",
+  "question": "Name an Indian chess grandmaster.",
+  "answer": "Viswanathan Anand"
+ },
+ {
+  "id": "q09",
+  "question": "What does Python use to group statements?",
+  "answer": "indentation"
+ },
+ {
+  "id": "q10",
+  "question": "What is Java compiled to?",
+  "answer": "bytecode"
+ },
+ {
+  "id": "q11",
+  "question": "What do you need to make a UPI payment?",
+  "answer": "UPI ID or a QR code"
+ },
+ {
+  "id": "q12",
+  "question": "What does a fixed deposit do?",
+  "answer": "locks money for a set time"
+ },
+ {
+  "id": "q13",
+  "question": "Who regulates banks in India?",
+  "answer": "Reserve Bank of India"
+ },
+ {
+  "id": "q14",
+  "question": "Where can train tickets be booked online?",
+  "answer": "IRCTC"
+ },
+ {
+  "id": "q15",
+  "question": "Which cities have metro rail?",
+  "answer": "Hyderabad"
+ },
+ {
+  "id": "q16",
+  "question": "How do metro passengers pay?",
+  "answer": "smart card"
+ },
+ {
+  "id": "q17",
+  "question": "Where is tea grown in India?",
+  "answer": "Darjeeling"
+ },
+ {
+  "id": "q18",
+  "question": "What goes into masala tea?",
+  "answer": "cardamom"
+ },
+ {
+  "id": "q19",
+  "question": "Which states grow coffee?",
+  "answer": "Karnataka"
+ },
+ {
+  "id": "q20",
+  "question": "What is South Indian filter coffee brewed with?",
+  "answer": "chicory"
+ },
+ {
+  "id": "q21",
+  "question": "What is diabetes?",
+  "answer": "blood sugar stays too high"
+ },
+ {
+  "id": "q22",
+  "question": "How can diabetes be controlled?",
+  "answer": "balanced diet"
+ },
+ {
+  "id": "q23",
+  "question": "What does yoga combine?",
+  "answer": "breathing and meditation"
+ },
+ {
+  "id": "q24",
+  "question": "Why do people do yoga in the morning?",
+  "answer": "reduce stress"
+ },
+ {
+  "id": "q25",
+  "question": "Where is India building solar parks?",
+  "answer": "Rajasthan"
+ },
+ {
+  "id": "q26",
+  "question": "How does rooftop solar help homes?",
+  "answer": "cut their electricity bills"
+ },
+ {
+  "id": "q27",
+  "question": "How often are general elections held?",
+  "answer": "every five years"
+ },
+ {
+  "id": "q28",
+  "question": "What do Indian voters use to vote?",
+  "answer": "electronic voting machines"
+ },
+ {
+  "id": "q29",
+  "question": "When was AstroSat launched?",
+  "answer": "2015"
+ },
+ {
+  "id": "q30",
+  "question": "Which ISRO mission went to Mars?",
+  "answer": "Mangalyaan"
+ },
+ {
+  "id": "q31",
+  "question": "Where do ISRO rockets launch from?",
+  "answer": "Sriharikota"
+ },
+ {
+  "id": "q32",
+  "question": "Who runs elections in India?",
+  "answer": "Election Commission"
+ }
+]
