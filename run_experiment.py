@@ -39,18 +39,21 @@ def run(docs, questions, embedder, cross):
                 rrs.append(rr)
             rows.append({"chunking": strat_name, "chunks": len(chunks), "search": retriever.name,
                          f"hit@{K}": round(sum(hits) / len(hits), 3), "mrr": round(sum(rrs) / len(rrs), 3),
+                         "latency_ms_mean": round(statistics.mean(times), 2),
                          "latency_ms_median": round(statistics.median(times), 2),
                          "latency_ms_p95": round(sorted(times)[int(0.95 * len(times)) - 1], 2),
-                         "cost_usd": 0.0,
+                         # local models only: no API is called, so 1,000 questions cost nothing
+                         "cost_per_1000_questions_usd": 0.0,
                          "misses": [q["id"] for q, h in zip(questions, hits) if not h]})
     return rows
 
 
 def to_markdown(rows):
-    lines = [f"| chunking | search | hit@{K} | MRR | median ms | p95 ms | cost |", "|---|---|---|---|---|---|---|"]
+    lines = [f"| chunking | search | hit@{K} | MRR | mean ms | p95 ms | cost per 1,000 questions |",
+             "|---|---|---|---|---|---|---|"]
     for r in rows:
         lines.append(f"| {r['chunking']} ({r['chunks']}) | {r['search']} | {r[f'hit@{K}']:.3f} | {r['mrr']:.3f} | "
-                     f"{r['latency_ms_median']} | {r['latency_ms_p95']} | $0 |")
+                     f"{r['latency_ms_mean']} | {r['latency_ms_p95']} | ${r['cost_per_1000_questions_usd']:.2f} |")
     return "\n".join(lines)
 
 

@@ -42,7 +42,7 @@ class ExperimentTests(unittest.TestCase):
         rows = run(docs, qs, FakeEmbedder(), FakeCrossEncoder())
         self.assertEqual(len(rows), 8)
         for r in rows:
-            for key in ("hit@5", "mrr", "latency_ms_median", "cost_usd"):
+            for key in ("hit@5", "mrr", "latency_ms_mean", "cost_per_1000_questions_usd"):
                 self.assertIn(key, r)
 
 

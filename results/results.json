@@ -5,9 +5,10 @@
   "search": "keyword",
   "hit@5": 0.938,
   "mrr": 0.906,
-  "latency_ms_median": 0.05,
-  "latency_ms_p95": 0.07,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 0.02,
+  "latency_ms_median": 0.02,
+  "latency_ms_p95": 0.02,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": [
    "q07",
    "q18"
@@ -19,9 +20,10 @@
   "search": "vector",
   "hit@5": 1.0,
   "mrr": 0.953,
-  "latency_ms_median": 20.4,
-  "latency_ms_p95": 36.49,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 9.2,
+  "latency_ms_median": 9.14,
+  "latency_ms_p95": 10.26,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": []
  },
  {
@@ -30,9 +32,10 @@
   "search": "hybrid",
   "hit@5": 1.0,
   "mrr": 0.964,
-  "latency_ms_median": 21.92,
-  "latency_ms_p95": 32.65,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 10.05,
+  "latency_ms_median": 10.07,
+  "latency_ms_p95": 11.01,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": []
  },
  {
@@ -41,9 +44,10 @@
   "search": "reranked",
   "hit@5": 1.0,
   "mrr": 0.969,
-  "latency_ms_median": 315.59,
-  "latency_ms_p95": 604.08,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 131.15,
+  "latency_ms_median": 120.23,
+  "latency_ms_p95": 175.6,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": []
  },
  {
@@ -52,9 +56,10 @@
   "search": "keyword",
   "hit@5": 0.938,
   "mrr": 0.878,
+  "latency_ms_mean": 0.04,
   "latency_ms_median": 0.04,
-  "latency_ms_p95": 0.06,
-  "cost_usd": 0.0,
+  "latency_ms_p95": 0.05,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": [
    "q07",
    "q08"
@@ -66,9 +71,10 @@
   "search": "vector",
   "hit@5": 1.0,
   "mrr": 0.964,
-  "latency_ms_median": 19.85,
-  "latency_ms_p95": 23.96,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 15.89,
+  "latency_ms_median": 15.27,
+  "latency_ms_p95": 18.99,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": []
  },
  {
@@ -77,9 +83,10 @@
   "search": "hybrid",
   "hit@5": 1.0,
   "mrr": 0.923,
-  "latency_ms_median": 21.92,
-  "latency_ms_p95": 70.18,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 13.65,
+  "latency_ms_median": 13.49,
+  "latency_ms_p95": 15.63,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": []
  },
  {
@@ -88,9 +95,10 @@
   "search": "reranked",
   "hit@5": 1.0,
   "mrr": 0.984,
-  "latency_ms_median": 164.23,
-  "latency_ms_p95": 258.43,
-  "cost_usd": 0.0,
+  "latency_ms_mean": 143.12,
+  "latency_ms_median": 137.59,
+  "latency_ms_p95": 192.61,
+  "cost_per_1000_questions_usd": 0.0,
   "misses": []
  }
 ]
